@@ -8,3 +8,7 @@ section {
     color: white;
     text-align: left;
 }
+img {
+    max-width:100%;
+    max-height: 100%;
+}
