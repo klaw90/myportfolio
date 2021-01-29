@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    color: green;
+    font-style: italic;
+    font-family: fantasy;
+    background-color: white;
+}
+header {
+    background-image: url("../images/lightsunset.jpg");
+    background-size: cover;
+}
+section {
+    color: white;
+    text-align: center;
+}
+img {
+    max-width:100%;
+    max-height: 100%;
+}
+.bio {
+    color: black;
+    font-family: fantasy;
+}
+.bio p{
+    font-family: fantasy;
+    color:darkolivegreen
+}
+.skills {
+    color: black;
+    font-family: fantasy;
+}
+.skills p {
+    color: darkolivegreen;
+}
+.works {
+    color: black;
+    font-family: fantasy;
+}
+.works a {
+    color: darkolivegreen;
+}
+.info {
+    color: black;
+    font-family: fantasy;
+}
+.info address {
+    color: darkolivegreen;
+}
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    footer h2 {
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+  
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+ 
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    
+}
