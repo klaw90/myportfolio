@@ -1,20 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Kay's Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Kay's Portfolio</title>
   </head>
 
   <body>
-    <h1>Kanesha "Kay" Law</h1>
-    <img src="./assets/images/Kay copy.JPG" alt="Kay Law"/>
-    <section>
-      <h2>Skills</h2>
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>JavaScript</p>
+    <header> 
+      <h1>Kanesha "Kay" Law</h1>
+    <!-- navigation -->
+    <nav>
+        <li>
+          <!-- Anchor element -->
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <a href="#my-skills">My Skills</a>
+        </li>
+        <li>
+          <a href="#my-work">My Work</a>
+        </li>
+        <li>
+          <a href="#contact-me">Contact Me</a>
+        </li>
+  
+        <img src="./assets/images/Kay copy.JPG" width="200" height="200" alt="Kay Law"/>
+    </nav>
+    </header>
+
+    <section id="about-me" class="bio">
+      <div>
+        <h2>About Me</h2>
+      </div>
+      <div>
+        <p>Born and raised in Orlando, FL.</p>
+        <p>Kay was inspired to become a developer when the 2020 Pandemic shocked the world, and left many out of a job.</p>
+        <p>Her interests outside of coding include art, music, being a mom, and wine-tasting.</p>
+      </div>
     </section>
+
+    <section id="my-skills" class="skills">
+      <div> 
+        <h2>My Skills</h2>
+      </div>
+      <div>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+      </div>
+    </section>
+
+    <section id="my-work" class="works">
+      <div>
+        <h2>My Work</h2>
+      </div>
+      <div>
+        <a href="https://klaw90.github.io/run-buddy/">Run Buddy</a>
+      </div>
+    </section>
+
+    <section id="contact-me" class="info">
+      <div>
+        <h2>Contact Me</h2>
+      </div>
+      <address>
+        Phone: 407.923.4154<br/>
+        Message: <a href="mailto:klaw90@gmail.com">Email</a><br/>
+        Website: <a href="https://www.linkedin.com/in/kaylaw90">Linked in</a>
+      </address>
+    </section>
+
+     <!-- footer -->
+    <footer>
+      <h2>Thank You For Viewing ❤️</h2>
+    </footer>
   </body>
 
 </html>
